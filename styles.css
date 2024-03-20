@@ -1,0 +1,21 @@
+/* CSS-Selektoren */
+/*
+    Element-Selektoren: body, main, p, img, h1...
+    Class-Selektor: .card, .header ...
+    Id-Selektor: #card1, #div-body ...
+
+
+*/
+body { background-color: #8c8c8c; }
+h1,h2,h3,h4,h5,h6 { font-style: italic; }
+main {
+    margin: 80px;
+}
+
+li.fette.liste {
+    font-weight: 900;
+}
+
+li.custom-list-item {
+    margin: 15px;
+}
