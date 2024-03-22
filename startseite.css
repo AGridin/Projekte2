@@ -1,0 +1,31 @@
+:root {
+    --primary-color: rgb(195, 16, 240);
+    --accent-color: rgb(240, 70, 40);
+}
+
+body {
+    margin: 0; padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > .link-container {
+    border: 5px double var(--accent-color);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#clock {
+    margin-top: 10vh;
+    margin-bottom: 15px;
+    font-size: 4em;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 3px black;
+}
+#clock,
+#joke {
+    text-align: center;
+}
